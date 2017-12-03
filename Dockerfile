@@ -13,7 +13,7 @@ COPY hlw.txt hlw.txt
 RUN cat hlw.txt
 
 COPY ./docker-entrypoint.sh /
-RUN chmod +x /docker-entrpypoint.sh
+RUN chmod +x /docker-entrypoint.sh
 
 ENTRYPOINT ["docker-entrpoint.sh"]
 
